@@ -1,0 +1,15 @@
+{
+  "name": "car-math",
+  "version": "1.0.0",
+  "description": "Car Math — a tow-truck wheel-counting game for kids",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
