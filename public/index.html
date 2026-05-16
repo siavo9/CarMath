@@ -72,6 +72,23 @@
   }
   .play-btn:hover  { transform: translateY(3px); box-shadow: 0 6px 0 #2E7D32; }
   .play-btn:active { transform: translateY(9px); box-shadow: 0 0 0 #2E7D32; }
+  .more-games {
+    margin-top: 36px;
+    font-size: 1.2em;
+    color: #2c2c2c;
+  }
+  .more-games a {
+    color: #1565C0;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px dashed #1565C0;
+    padding-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .more-games a:hover {
+    color: #FF6B35;
+    border-bottom-color: #FF6B35;
+  }
 
   /* ===== GAME ===== */
   #game-header {
@@ -274,6 +291,10 @@
   <div id="home-truck-svg"></div>
   <br>
   <button class="play-btn" onclick="startGame()">Play Now!</button>
+  <div class="more-games">
+    🧠 Try more brain games at
+    <a href="https://zaksbraingames.com/" target="_blank" rel="noopener">zaksbraingames.com</a>
+  </div>
 </div>
 
 <!-- ========== GAME SCREEN ========== -->
